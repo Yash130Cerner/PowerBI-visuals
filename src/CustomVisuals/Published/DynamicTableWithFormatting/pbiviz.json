@@ -1,0 +1,37 @@
+{
+  "visual": {
+    "name": "DynamicTableWithFormattingByMAQSoftware",
+    "displayName": "Dynamic Table with Formatting by MAQ Software",
+    "guid": "gridC349787CD62C42098B77589D910C0721Z",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.7.0",
+  "author": {
+    "name": "MAQ Software",
+    "email": "maqpowerbivisualsupport@maqsoftware.com"
+  },
+  "assets": {
+    "icon": "assets/Grid.png"
+  },
+  "externalJS": [
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/globalize/lib/globalize.js",
+    "node_modules/globalize/lib/cultures/globalize.culture.en-US.js",
+    "node_modules/powerbi-visuals-utils-typeutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-formattingutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-svgutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.js",
+    "node_modules/powerbi-visuals-utils-chartutils/lib/index.js",
+    "node_modules/jquery/dist/jquery.js",
+    "node_modules/d3/d3.min.js"
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": "dependencies.json",
+  "stringResources": []
+}
